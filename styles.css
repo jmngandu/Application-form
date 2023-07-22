@@ -57,4 +57,11 @@ button{
     margin: 2rem 0;
     background-color: #bb342f;
     color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: white;
+    color: #bb342f;
 }
