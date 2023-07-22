@@ -52,4 +52,8 @@ textarea{
 select{
     font-size: 1rem;
 }
-
+button{
+    font-size: 1rem;
+    margin: 2rem 0;
+    background-color: #bb342f;
+}
