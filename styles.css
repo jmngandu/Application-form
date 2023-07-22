@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.wrapper {
+..wrapper {
     width: 80px;
     margin: 0 auto;
     padding: 1rem;

@@ -11,7 +11,7 @@
     <h1>JthreeGlobally Order Form</h1>
     <p>Fill the form bellow to place an order from jthreeGlobally company
     </p>
-    <form>
+    <form class="wrapper">
         <fieldset>
     <legend>contact information</legend> 
     <p><label for="name">Your name</label>
@@ -27,20 +27,21 @@
         <input type="date" id="date" name="date">
         <label for="qty">How many goods would you like to order</p>
             <input type="number" id="qty" name="qty" min="1">
+            <label for="goodtype">What type of goods would you like to order</label>
+            <select id="goodtype" name="goodtype" >
+                <option selected>select one...</option>
+                <option value="electronics">Electronics</option>
+                <option value="hardware">Hardware</option>
+                <option value="food">Food</option>
+            </select>
         <p>What type of transport whould you prefer?</p>
        
            <label> <input type="radio" name="tranType" value="pickups">Pickups</label>
             <label> <input type="radio" name="tranType" value="tracks">Tracks</label>
             <label> <input type="radio" name="tranType" value="flight">Flight</label>
-            <label> <input type="radio" name="tranType" value="train">Train</label>
+            <label> <input type="radio" name="tranType" value="train" checked>Train</label>
         </ul>
-        <label for="goodtype">What type of goods would you like to order</label>
-        <select id="goodtype">
-            <option selected>select one...</option>
-            <option value="electronics">Electronics</option>
-            <option value="hardware">Hardware</option>
-            <option value="food">Food</option>
-        </select>
+       
     <p>Special requests:</p>
     <p>Add me to your email list</p>
 </fieldset>
