@@ -45,4 +45,11 @@ legend{
 label{
     display: block;
 }
+textarea{
+    height: 10rem;
+    padding: 1rem;
+}
+select{
+    font-size: 1rem;
+}
 
