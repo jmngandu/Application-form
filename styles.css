@@ -65,6 +65,11 @@ button:hover{
     background-color: white;
     color: #bb342f;
 }
-input{
-    
+input:not([type="radio"]) {
+    display: block;
+    margin-bottom: 2rem;
+    width: 20rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0 1rem;
 }
