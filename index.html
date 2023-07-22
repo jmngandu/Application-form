@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="wrapper">
+        <section>
     <h1>JthreeGlobally Order Form</h1>
     <p>Fill the form bellow to place an order from jthreeGlobally company
     </p>
-    <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="post">
+    <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
         <input type="hidden" name="send_to" value="jamesmngandu@gmail.com">
         <fieldset>
     <legend>contact information</legend> 
@@ -35,7 +37,7 @@
                 <option value="hardware">Hardware</option>
                 <option value="food">Food</option>
             </select>
-        <p>What type of transport whould you prefer?</p>
+        <p>What type of transport <script src="forms.js"></script>whould you prefer?</p>
        
            <label> <input type="radio" name="tranType" value="pickups">Pickups</label>
             <label> <input type="radio" name="tranType" value="tracks">Tracks</label>
@@ -49,12 +51,13 @@
 </fieldset>
 <button type="submit">Place your order</button>
     </form>
-    <section>
+</section>
         <aside>
             <h3>Our location</h3>
             <address></address>
         </aside>
-    </section>
+    
+</div>
     <script src="forms.js"></script>
 </body>
 </html>

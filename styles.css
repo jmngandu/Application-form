@@ -1,7 +1,7 @@
 html{
    box-sizing: border-box;
 }
-*, *::before, *:after {
+*, *:before, *:after {
     box-sizing: inherit;
 }
 body{
@@ -9,10 +9,21 @@ body{
     margin: 0;
     padding: 0;
 }
-..wrapper {
-    width: 80px;
+.wrapper {
+    width: 80%;
     margin: 0 auto;
     padding: 1rem;
     display: flex;
     flex-flow: row nowrap;
+}
+p{
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+section{
+    flex-basis: 57%;
+    margin-right: 10%;
+}
+aside{
+    flex-basis:33%;
 }
