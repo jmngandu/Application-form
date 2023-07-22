@@ -42,4 +42,7 @@ legend{
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
+label{
+    display: block;
+}
 
